@@ -2,6 +2,7 @@ import { Cookies } from 'react-cookie'
 
 const cookies = new Cookies()
 
+// setCookie 쿠키를 셋팅
 export const setCookie = ({ accessToken, refreshToken }) => {
   const expires = new Date()
   expires.setMinutes(expires.getMinutes() + 30)

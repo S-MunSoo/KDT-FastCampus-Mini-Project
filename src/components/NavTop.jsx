@@ -100,7 +100,6 @@ const NavTop = () => {
           </Space>
         </div>
       </div>
-
       <Popup
         visible={visible}
         onMaskClick={() => {

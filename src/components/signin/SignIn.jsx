@@ -25,7 +25,6 @@ function SignIn() {
       email,
       password
     }
-
     try {
       const userData = await login(data).unwrap()
       console.log(userData)
